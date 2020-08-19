@@ -1,0 +1,242 @@
+.task{
+ width:  1180px;
+ height: 875px;
+ background: #171717;
+ margin: 0 auto;
+  .container{
+    width: 952px;
+    height: 668px;
+    
+    margin: 0 auto;
+    font-family: Roboto;
+    .bitcoin{
+      height: 85px;
+      background: url(../img/EnigmoCrypto.png);
+      display: flex;
+      border-bottom: 2px solid #000000;
+      &__text{
+        
+        padding: 0 30px;
+        span{
+          font-weight: 300;
+          font-size: 12px;
+          line-height: 18px;
+          display: flex;
+          align-items: center;
+          letter-spacing: 0.2px;
+          color: #8C9C9A;
+          padding:10px 5px;
+        }
+        p{
+          font-family: Enigmo;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          margin: 0;
+          
+          word-spacing: 2px;
+         
+
+          display: flex;
+          color: #c5d3d1
+        }
+      }
+    }
+  }
+  .deposit{
+    display: flex;
+    height: 350px;
+    border-bottom: 2px solid #000000;
+    font-family: Enigmo;
+    .percent{
+      width: 520px;
+      &__calculation{
+        height: 155px;
+        display: flex;
+        
+        border-bottom: 2px solid #000000;
+        .text{
+          align-self: flex-end;
+          
+          font-style: normal;
+          font-weight: 500;
+          font-size: 72px;
+          line-height: 18px;
+          /* or 25% */
+          margin: 43px -7px;
+          display: flex;
+          align-items: center;
+          letter-spacing: 0.2px;
+
+          color: #8C9C9A;
+          b{
+            font-size: 50px;
+            padding-top:10px ;
+          }
+        }
+        p{
+          margin: 35px 0;
+           align-self: flex-end;
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 18px;
+          /* or 75% */
+
+          display: flex;
+          
+          text-align: center;
+          letter-spacing: 0.2px;
+
+          color: #30C4AE;
+         
+        }
+        .per{
+          margin: 50px 0;
+          font-weight: 500;
+          font-size: 82px;
+          line-height: 18px;
+          /* or 22% */
+
+          display: flex;
+          align-items: flex-end;
+          text-align: center;
+          letter-spacing: 0.2px;
+
+          color: #30C4AE;
+        }
+        
+        
+
+      }
+      &__text{
+        margin: 40px 0;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        color: #8C9C9A;
+        p{
+          margin:0 a;
+        }
+      }
+    }
+    .sum{
+      color: honeydew;
+      display: flex;
+      margin-left: 80px;
+      width: 352px;
+      flex-direction: column;
+      font-family: Enigmo;
+      
+      &__heading{
+        background:url(../img/Frame.png) no-repeat;
+        height: 30px;
+        display: flex;
+        margin: 25px 0 10px 0;
+        span{
+          align-self: center;
+          text-transform: uppercase;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 18px;
+          letter-spacing: 0.5px;
+          padding:0 40px ;
+          margin: 10px 0;
+          color: #8C9C9A;
+        }
+      }
+      &__form{
+        form{
+          display: flex;
+          flex-direction: column;
+          .text{
+            width: 316.26px;
+            height: 68.8px;
+            background: #171717;
+            box-shadow: inset -4px -4px 10px rgba(35, 35, 35, 0.25), inset 4px 4px 10px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            border: none;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 16px;
+            /* or 67% */
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.2px;
+
+            color: #8C9C9A;
+          }
+          .btn{
+            width: 316.26px;
+            height: 52px;
+            margin: 38px 0;
+            background: transparent;
+            border: 2px solid #30C4AE;
+            border-radius: 10px;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.2px;
+            color: #30C4AE;
+            padding: 0 29%;
+            
+          }
+          label{
+            font-weight: 300;
+            font-size: 14px;
+            font-family: Roboto;
+            text-align: center;
+            
+
+            color: #D6EBE6;
+            span{
+              text-decoration-line: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer{
+    display: flex;
+    background: url(../img/D6.png);
+    color: white;
+    justify-content: space-between;
+    .block{
+      padding-top: 40px;
+      h3{
+        font-family: Enigmo;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        /* or 120% */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.2px;
+
+        color: #8C9C9A;
+      }
+      span{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 20px;
+        /* or 167% */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.2px;
+
+        color: #8C9C9A;
+      }
+    }
+  }
+}
